@@ -1,0 +1,8 @@
+sudo perf stat -d ./gemm 256 1
+
+sudo perf record ./gemm 256 1
+
+sudo perf annotate
+
+sudo perf report
+
