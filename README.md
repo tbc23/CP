@@ -1,2 +1,2 @@
 # CP
-Computação Paralela
+Repositório de Computação Paralela
