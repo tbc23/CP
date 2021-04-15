@@ -1,0 +1,25 @@
+Descarregar gcc de HPC OSX
+Fazer unzip
+Instalar as command tools
+		xcode-select --install
+Colocar as bibliotecas no “lib_path”
+		
+		export DYLD_LIBRARY_PATH=/Users/tbc23/Documents/MIEFIS/4ano/2_semestre/CP/usr/local/lib
+
+Compilar (indicando -I e -L indicado no HPC OSX
+		/Users/jls/Desktop/usr/local/bin/gcc -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib -fopenmp ex1.c
+
+
+		USAR ESTE PARA COMPILAR:
+---------------------------------------------------------------------------------------------------------------------
+
+		export DYLD_LIBRARY_PATH=/Users/tbc23/Documents/MIEFIS/4ano/2_semestre/CP/usr/local/lib
+		
+		/Users/tbc23/Documents/MIEFIS/4ano/2_semestre/CP/usr/local/bin/gcc -I/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -L/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib -fopenmp ex1.c
+
+---------------------------------------------------------------------------------------------------------------------
+
+  7. Executar ./a.out 
+
+  NOTA: Vai ser necessário dar várias permissões de segurança (5-6 ficheiros):
+		- escolher “Abrir no finder” e depois Abrir
